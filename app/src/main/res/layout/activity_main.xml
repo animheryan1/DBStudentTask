@@ -8,16 +8,19 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/name" />
+        android:hint="@string/name"
+        android:id="@+id/nameEditText"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/surname" />
+        android:hint="@string/surname"
+        android:id="@+id/surnameEditText"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/marks"/>
+        android:hint="@string/marks"
+        android:id="@+id/marksEditText"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
